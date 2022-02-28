@@ -1,0 +1,74 @@
+body{
+    background-color: azure;
+    margin:0;
+}
+.logo{
+    height:4em;
+    width: 4em;
+    float:left;
+    left:1%;
+    top:0%;
+    position: fixed;
+}
+
+.navtext{
+    font-size: 1.5em;
+    font-style: normal;
+    top:2.5%;
+    position:fixed;
+    padding-left: 4em;
+
+}
+.bar{
+    background-color:#8dd0f7f3;
+    color:azure ;
+    height:4em;
+    width:auto;
+}
+
+
+h1{
+    font-size:4.5em;
+    font-style:normal;
+    color:#99D5FB;
+    margin:0em;
+    padding-top:2em;
+    text-align:center;}
+
+p{
+    font-size:1.5em;
+    font-style: normal;
+    color:#99D5FB;
+    margin-top:0.5em;
+    text-align:center;
+}
+.uppercloud{
+    height:auto;
+    width:15%;
+    float:left;
+    left:3%;
+    top:15%;
+    position: fixed;
+}
+
+.cornermainteddy{
+    height:auto;
+    width:25%;
+    float: right;
+    right:1.5%;
+    top:32.5%;
+    position: fixed;
+}
+.menu a{
+    float: right;
+    right:1%;
+    font-size: 1em;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1.75% 2%;
+
+}
+.menu a:hover{
+    color: aliceblue;
+    background-color: #60b3e7;
+}
