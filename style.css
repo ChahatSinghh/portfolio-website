@@ -1,10 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: azure;
-    margin:0;
+ }
+
+.bar{
+    background-color:#99D5FB;
+    color:azure ;
+    height:4rem;
+    width:100%;
+    position: fixed;
 }
 .logo{
-    height:4em;
-    width: 4em;
+    height:4rem;
+    width: 4rem;
     float:left;
     left:1%;
     top:0%;
@@ -12,63 +24,199 @@ body{
 }
 
 .navtext{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-style: normal;
     top:2.5%;
     position:fixed;
-    padding-left: 4em;
-
-}
-.bar{
-    background-color:#8dd0f7f3;
-    color:azure ;
-    height:4em;
-    width:auto;
+    padding-left: 5.5rem;
 }
 
-
-h1{
-    font-size:4.5em;
-    font-style:normal;
-    color:#99D5FB;
-    margin:0em;
-    padding-top:2em;
-    text-align:center;}
-
-p{
-    font-size:1.5em;
-    font-style: normal;
-    color:#99D5FB;
-    margin-top:0.5em;
-    text-align:center;
-}
-.uppercloud{
-    height:auto;
-    width:15%;
-    float:left;
-    left:3%;
-    top:15%;
-    position: fixed;
-}
-
-.cornermainteddy{
-    height:auto;
-    width:25%;
-    float: right;
-    right:1.5%;
-    top:32.5%;
-    position: fixed;
-}
 .menu a{
     float: right;
     right:1%;
-    font-size: 1em;
+    font-size: 1rem;
     text-decoration: none;
     color: aliceblue;
     padding: 1.75% 2%;
-
 }
+
 .menu a:hover{
-    color: aliceblue;
+    color: rgb(246, 250, 253);
     background-color: #60b3e7;
+}
+
+h1{
+    font-size:4.5rem;
+    font-style:normal;
+    color:#99D5FB;
+    text-align: center;
+    margin: 0% auto;
+    padding-top:10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 3.2s steps(16,end) ;
+}
+
+span{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{
+    0%{width: 0ch;}
+    50%{width:16ch;}
+    70%{width:16ch;}
+    80%{width:16ch;}
+    100%{ width:16ch;} 
+} 
+
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+p{
+    font-size:1.5rem;
+    font-style: normal;
+    color:#99D5FB;
+    margin-top:0.5rem;
+    text-align:center;
+}
+
+.cornermainteddy{
+    height:24rem;
+    width: 100%;
+    float: right;
+    margin-top:-7rem;
+}
+
+.cornermainteddy img{
+    width:auto;
+    height:23rem;
+    margin-right:2rem;  
+    float:right;
+}
+
+/*main body's content's CSS*-------------------------------------------------------*/
+hr{
+    border: dotted rgb(101, 158, 211) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.skills{
+    padding-bottom:4rem;
+    padding-top: 3rem;
+}
+.profile h2{
+    font-size: 2rem;
+    color: #60b3e7;
+    text-align: center;
+
+    
+}
+.profile p{
+    color:#5aa0cc;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.skills h2{
+    font-size: 2rem;
+    color: #60b3e7;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.skill-row h3{
+    font-size: 1.5rem;
+    color: #60b3e7;
+    text-align: left;
+    padding-top: 2rem;
+}
+.skill-row p{
+    color:#5aa0cc;
+    font-size: 1rem;
+    text-align: left;
+    padding-bottom: 4rem;
+}
+
+
+
+.profile img{
+    height: 10rem;
+    display: block;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.skillteddy {
+    height: 10rem;
+    display: block;
+    /*margin: auto;*/
+    /*padding-top: 3rem;*/
+    margin-right: 1rem;
+    float: left;
+}
+
+.languageknownteddy{
+    height: 10rem;
+    display: block;
+    /*margin: auto;*/
+    /*padding-top: 3rem;*/
+    margin-right: 1rem;
+    float: left;
+    
+}
+
+.speaklanguage{
+    text-align: left;
+    font-size: 1.2rem;
+    color: rgb(105, 177, 224);
+    padding-left: 10rem;
+    padding-top: 3rem;
+    line-height:3;
+}
+
+.speaklanguage h2{
+    font-size: 2rem;
+}
+
+.chartsteddy{
+    height: 16rem;
+    width: auto;
+    float:right;
+    padding-right: 6rem;
+    padding-top: 2rem;
+}
+
+.bottom-container{
+    height: 6rem;
+    background-color: #99D5FB;
+    margin-top: 4rem;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.footer-link1{
+    height:3rem;
+    width: auto;
+    padding: 1rem;
+}
+
+.footer-link2{
+    height:3rem;
+    width: auto;
+    padding: 1rem;
+}
+.footer-link3{
+    height:3rem;
+    width: auto;
+    padding: 1rem;
 }
