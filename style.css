@@ -200,25 +200,27 @@ hr{
     margin-top: 4rem;
     color: aliceblue;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
 .bottom-container text{
     padding-bottom: 0.2rem;
+    color: #1570a8;
 }
 
 .footer-link1{
     height:3rem;
     width: auto;
-    padding: 1rem 1rem 0 1rem ;
+    padding: 1rem 2rem 0 2rem ;
 }
 
 .footer-link2{
     height:3rem;
     width: auto;
-    padding: 1rem 1rem 0 1rem ;
+    padding: 1rem 2rem 0 2rem;
 }
 .footer-link3{
     height:3rem;
     width: auto;
-    padding: 1rem 1rem 0 1rem ;
+    padding: 1rem 2rem 0 2rem ;
 }
+

@@ -1,2 +1,3 @@
 # portfolio-
-hyy this is chahat and this is the source code for my portfolio website it's still under construction
+hyy this is chahat and this is the source code for my portfolio. website it's still under construction
+i will be adding more functionalities to it as soon as i learn more skills...
